@@ -7,10 +7,10 @@ This project focuses on integrating edge computing in 5G autonomous vehicles to 
 
 ## 🏆 Contributors   
 - **Arkesh Chaudhary - 202111012**
-- **Nisarg Patel - 202111058** 
+- **Nisarg Patel - 202111058**
+- **Rajan Yadav - 202111068**
 - **Sahil Sonkar - 202111075**  
 - **Saurya Kr. Gupta - 202111076**  
-- **Chacha - 202111077**
 
 ## Mentor
 **Dr. Bhupendra Kumar**
