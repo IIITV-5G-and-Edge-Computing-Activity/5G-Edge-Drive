@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+service EdgeServer {
+  rpc ProcessImage (ImageRequest) returns (ImageResponse);
+  rpc PlanRoute (RouteRequest) returns (RouteResponse);
+}
+
+message ImageRequest {
+  bytes image = 1; // Image in binary format
+}
+
+message ImageResponse {
+  string result = 1; // JSON-encoded string of detected objects
+}
+
+message RouteRequest {
+  string start = 1; // Starting point
+  string goal = 2;  // Goal point
+}
+
+message RouteResponse {
+  string path = 1; // JSON-encoded string of the optimal path
+}
