@@ -3,6 +3,10 @@
 ## Overview
 This project demonstrates a **5G-inspired vehicle-edge server simulation** that integrates edge computing to handle computationally intensive tasks. Using **gRPC** for communication, it showcases the following capabilities:
 
+## Project Demonstration
+Link: https://drive.google.com/file/d/12E35PFODAug7Wxw7jHCauiQ6RLrnpLoC/view?usp=sharing
+
+
 1. **Object Detection**: Utilizing YOLOv5 to detect objects in images captured by the vehicle.
 2. **Route Planning**: Implementing the A* algorithm for efficient navigation.
 
